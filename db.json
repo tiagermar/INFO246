@@ -1,51 +1,46 @@
 {
   "items": [
     {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
       "id": "1",
-      "name": "Soccer ball",
-      "description": "Item for football playing"
+      "courseNumber": "INFO 246",
+      "section": "13",
+      "courseTitle": "APIs",
+      "semester": "SP 2024"
     },
     {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
       "id": "2",
-      "name": "Skateboard",
-      "description": "Item for creative playing"
+      "courseNumber": "INFO 246",
+      "section": "12",
+      "courseTitle": "Information Visualization",
+      "semester": "SP 2024"
     },
     {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
       "id": "3",
-      "name": "Laptop",
-      "description": "Item for innovating and building"
+      "courseNumber": "INFO 246",
+      "section": "11",
+      "courseTitle": "Python",
+      "semester": "SP 2024"
     }
   ],
   "users": [
     {
-      "@context": "https://schema.org",
-      "@type": "Person",
+      "pathway": "Web Programming and Information Architecture",
+      "award": "Post-Masters Certificate",
       "id": "1",
-      "name": "user 1",
-      "description": "some user comment about item",
-      "itemId": "1"
+      "name": "Tia Germar",
+      "description": "student"
     },
     {
-      "@context": "https://schema.org",
-      "@type": "Person",
+      "pathway": "Web Programming and Information Architecture",
+      "award": "Post-Masters Certificate",
       "id": "2",
-      "name": "user 2",
-      "description": "some user comment about item",
-      "itemId": "1"
+      "name": "Jane Doe",
+      "description": "student"
     }
   ],
   "collection": {
-    "@context": "https://schema.org/",
-    "@type": "Collection",
-    "name": "jasonclark's API",
-    "creator": "jasonclark",
-    "about": "A collection of items or things or stuff",
-    "url": "https://www.jasonclark.info"
+    "name": "tiagermar's API",
+    "creator": "tiagermar",
+    "about": "Courses, Award Pathways, and Students"
   }
 }
